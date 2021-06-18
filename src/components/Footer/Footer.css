@@ -1,0 +1,17 @@
+.footer {
+    height: 120px;
+    width: 100%;
+    background: grey;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.footerLinks{
+    justify-content: center;
+    margin: auto;
+}
+
+.footerLinksStyle{
+    padding: 20px;
+    text-decoration: none;  
+}
