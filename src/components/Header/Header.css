@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #343A40;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F8F9FA;
+    height: 60px;
+    width: 100%;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+.title, .dropDown{
+    margin: auto 70px;
+}
+.dropDown{
+    display:flex;
+    justify-content: space-evenly;
+    -webkit-transition: 1s;
+}
+
+.burgerList{
+    display:block;
+}
+
+.burger{
+    background-color: #F8F9FA;
+    width: 20px;
+    height: 3px;
+    display:block;
+    margin: 5px 10px;
+}
+
+.dropDown:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.dropDown:hover .burger-2{
+    opacity: 0;
+}
+
+.dropDown:hover .burger-1{
+    transition: all 0.5s ease-in-out;
+    transform: rotate(45deg) translateX(11.5px);
+}
+
+.dropDown:hover .burger-3{
+    transition: all 0.5s ease-in-out;
+    transform: rotate(-45deg) translateX(11.5px);
+}
+

@@ -1,9 +1,9 @@
 .footer {
     height: 120px;
     width: 100%;
-    background: grey;
     flex-shrink: 0;
     display: flex;
+    background-color: #343A40;
 }
 
 .footerLinks{
@@ -14,4 +14,7 @@
 .footerLinksStyle{
     padding: 20px;
     text-decoration: none;  
+    font-size: 16px;
+    font-weight: bold;
+    color: #F8F9FA;
 }
