@@ -1,12 +1,27 @@
 import './Footer.css';
+import linkedInLogo from '../../Images/linkedIn.png';
+import personalLogo from '../../Images/logo-32x32.png';
+import gitHubLogo from '../../Images/GitHub-Mark-Light-32px.png';
 
 function Footer () {
     return(
         <div className='footer'>
             <div className='footerLinks'>
-                <a className='footerLinksStyle' href='#'>LinkedIn</a>
-                <a className='footerLinksStyle' href='#'>Portfolio</a>
-                <a className='footerLinksStyle' href='#'>Github</a>
+                <div className='footerLink'>
+                    <a className='footerLinkStyle' href='#'>
+                        <img className='icon' src={linkedInLogo} alt="linkedIn"/>
+                    </a>
+                </div>
+                <div className='footerLink'>
+                    <a className='footerLinkStyle' href='#'>
+                        <img className='icon' src={personalLogo} alt="linkedIn"/>
+                    </a>
+                </div>
+                <div className='footerLink'>
+                    <a className='footerLinkStyle' href='#'>
+                        <img className='icon' src={gitHubLogo} alt="linkedIn"/>
+                    </a>
+                </div>
             </div>
         </div>
     );

@@ -7,14 +7,21 @@
 }
 
 .footerLinks{
+    display: flex;
     justify-content: center;
     margin: auto;
 }
 
-.footerLinksStyle{
-    padding: 20px;
-    text-decoration: none;  
-    font-size: 16px;
-    font-weight: bold;
-    color: #F8F9FA;
+.footerLinkStyle {
+    margin: 15px;
+}
+
+.icon {
+    height: 32px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.5);
 }

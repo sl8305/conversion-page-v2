@@ -11,13 +11,17 @@
     "babel-core": "^6.26.3",
     "core-js": "^3.14.0",
     "css-what": "^5.0.1",
+    "glob-parent": "^6.0.0",
     "normalize-url": "^6.0.1",
     "postcss": "^8.3.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
+    "resolve-url-loader": "^4.0.0",
+    "type-fest": "^1.2.1",
     "typescript": "^4.3.4",
     "web-vitals": "^1.1.2",
+    "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.1"
   },
   "scripts": {
